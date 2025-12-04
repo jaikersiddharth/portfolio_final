@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 import {resolve,dirname} from "path";
 import { fileURLToPath } from 'url';
 export default defineConfig({
-  base: '/macOS_portfolio/',
+  base: '/portfolio_final/',
   plugins: [react(),tailwindcss()],
   resolve: {
     alias: {
