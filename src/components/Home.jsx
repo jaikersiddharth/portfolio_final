@@ -3,7 +3,7 @@ import useWindowstore from "#store/window.js";
 import { useGSAP } from "@gsap/react";
 import clsx from "clsx";
 import { Draggable } from "gsap/Draggable";
-import useLocationStore from "#store/location.js";
+import useLocationStore from "#store/Location.js";
 
 const projects =locations.work?.children ?? [];
 
